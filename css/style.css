@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap');
+*{
+outline: none !important;
+}
+.ident
+{
+	font-family: arial ,sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 74%;
+}
+.ident ul
+{
+	display: inline-block;
+}
+.ident ul li
+{
+	color: white;
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+.ident ul li a
+{
+	text-decoration: none;
+	color: white;
+	transition: all .5s ease-in-out;
+
+}
+.ident ul li:hover a
+{
+    background-color: #DB0409;
+	padding: 8px;
+	color: white;	
+	letter-spacing: 5px;
+	border-radius: 10px;
+}
+.ident ul li:first-of-type a
+{
+	background-color: #DB0409;
+	padding: 8px;
+	color: white;
+   border-radius: 10px;
+
+}
+{
+	text-decoration: none;
+	color: white
+}
+.logo
+{
+	position: absolute;
+	
+	margin-bottom:30%;
+	margin-left: 50%;
+	color: white;
+
+}
+
+
+.menu1
+{
+	position: absolute;
+    float: left;
+	font-family: arial ,sans-serif;
+	font-weight: bold;
+	font-style: italic;
+    bottom: 87%;
+	
+}
+.menu nav ul
+{
+	display: inline-block;
+}
+.menu1 nav ul li
+{
+	color: white;
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+.menu1 nav ul li a
+{
+	text-decoration: none;
+	color: white;
+	transition: all .5s ease-in-out;
+
+}
+.menu1 nav ul li:hover a
+{
+ background-color: #DB0409;
+	padding: 8px;
+	letter-spacing: 5px;
+	color: white;
+	border-radius: 10px;		
+}
+.menu1 nav ul li:first-of-type a
+{
+   background-color: #DB0409;
+	padding: 8px;
+	color: white;	
+	border-radius: 10px;
+}
+.log
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+
+
+}
+.menu1 nav ul li:first-of-type a.clear
+{
+	background-color:#fff;
+}
+.se1 .container .txtbx 
+{
+	text-align: center;
+     color: white;
+}
+.se1 .container .txtbx h1
+{
+     font-style: italic;
+     font-family:arial , sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+body
+{
+background:#000;
+
+}
+.se1 .container
+{
+	background:#000;
+}
+.se1 .container .txtbx p
+{
+	font-size: 2.5rem;
+
+}
+.se1 .container .art ul 
+{
+
+}
+.se1 .container .art
+{
+	background:#000; 
+}
+.se1 .container .art li 
+{
+	margin-left: 10px;
+    display: inline-block;
+    list-style: none;
+}
+.se1 .container .art li:nth-of-type(2)
+{
+	margin-right: 50px;
+	margin-left: 50px;
+} 
+.sec2 button
+{
+	transition: all 1s ease-in-out;
+	margin-top: 30%;
+	margin-left: 10%;
+    border-color: white;
+    background-color: #DB0409;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    
+}
+.sec2 button:hover
+{
+	border-color: #DB0409;
+    background-color: white;
+    border-radius: 10px;
+    color: #3A173F;
+    padding: 10px;
+    text-shadow: 0 0 5px #DB0409;
+	box-shadow: 0 0 40px #DB0409,inset 0 0 40px #DB0409;
+		
+}
+.se1 .container .art li .card
+{
+	background:#000; 
+	color: white;
+}
+.btn-dark
+{
+	border-color: white;
+    background-color: #DB0409;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    transition: all 1s ease-in-out;
+}
+.btn-dark:hover
+{
+    border-color: #DB0409;
+    background-color: white;
+    border-radius: 10px;
+    color: #3A173F;
+    padding: 10px;	
+}
+.mor
+{
+	color: white;
+}
+.mor h2
+{
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: tahoma,sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+.mor .eve1 ul li .card
+{
+	background:#000;
+	margin-left: 60px;
+}
+.mor .eve1 ul li
+{
+list-style: none;
+display: inline-block;
+} 
+.mor .eve2 ul li .card
+{
+	background:#000;
+	margin-left: 60px;
+}
+.mor .eve2 ul li
+{
+list-style: none;
+display: inline-block;
+} 
+.Contacte .boxx
+{
+	margin-left: 20%;
+	padding: 	40px;
+	background:rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5)
+}
+.Contacte .boxx h2
+{
+	margin: 0 0 30px;
+	padding: 0;
+	color:#fff;
+    text-align: center;
+}
+.Contacte .boxx .inputboxx
+{
+	position: relative;
+}
+.Contacte .boxx .inputboxx input
+{
+	width: 80%;
+	padding: 10px 0;
+	font-size: 16px;
+	color:#3A173F;
+	margin-bottom: 30px;
+	border:none;
+	outline: none;
+	background:transparent;
+	border-bottom: 1px solid #DB0409;
+}
+.Contacte .boxx .inputboxx label
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color:#fff;
+    pointer-events: none;
+    transition: all  .5s ease-in-out;
+
+}
+
+.Contacte .boxx .inputboxx input:focus ~ label,
+.Contacte .boxx .inputboxx input:valid ~ label
+{
+
+top: -18px;
+left: 0;
+color: #DB0409;
+font-size: 12px;
+}
+.Contacte .boxx h4
+{
+color: #fff;
+}
+.Contacte .boxx .inputboxx textarea
+{
+width: 80%;
+	padding: 10px 0;
+	font-size: 16px;
+	color:#DB0409;
+	margin-bottom: 30px;
+	border:none;
+	outline: none;
+	background:transparent;
+	border-bottom: 1px solid #DB0409;	
+}
+.Contacte .boxx input[type="submit"]
+{
+	order-color: white;
+    background-color: #DB0409;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    transition: all 1s ease-in-out;
+}
+.Contacte .boxx input[type="submit"]:hover
+{
+
+	border-color: #DB0409;
+    background-color: white;
+    border-radius: 10px;
+    color: #DB0409;
+    padding: 10px;	
+}
+footer 
+{
+	color: #3A173F;
+	text-align: center;
+}
+footer ul li 
+{
+  list-style: none;
+  display: inline-block;
+}
+footer ul li i 
+{
+	  color: #3A173F;
+	  font-size: 2rem;
+	  margin-left: 10px;
+	  transition: all .5s ease-in-out;
+}
+footer ul li i:hover 
+{
+	  color: #fff;
+	  font-size: 2.5rem;
+	  letter-spacing: : 10px;
+	 
+}
+.vid
+{
+	text-align: center;
+}
+.get h3
+{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-family: arial,sans-serif;
+	font-size: 2.5rem;
+	color: #fff;
+}
+.more 
+{
+margin-left: 10px;
+}
+.about
+{
+	background-color: #fff;
+}
+.about .abo .img a
+{
+position: relative;
+color: blue;
+margin-left: 10%;
+left: 40%;
+top: 90%;
+}
+.about .abo .img a:hover
+{
+
+color: #3A173F;
+}
+.about .abo .want_to  ul li
+{
+	display: inline-block;
+	text-align: center;
+	margin-left: 4%;
+}
+.about .abo .want_to  ul li img 
+{
+	margin-left:17%; 
+} 
+.about .abo .want_to ul li .fe 
+{
+	position: relative;
+	margin-right: 10px;
+	margin-top: 10px;
+} 
+.about .abo .want_to  ul:nth-of-type(2) li img 
+{
+	margin-bottom: 40px; 
+	margin-right:110px;
+} 
+.about .abo .want_to  ul:nth-of-type(3) li img 
+{
+	margin-left:10px; 
+}
+.table-box
+{
+	margin-left:5%;
+	margin-bottom: 10%;
+	width: 90%; 
+    height: 400px;
+    overflow-y: scroll;
+    background:#fff;
+    box-shadow: 0 10px 100px rgba(0,0,0,0.5);
+
+}
+.table-box table
+{
+    width: 100%;
+    text-align: center;
+}
+ .table-box table, th, td
+ {
+ 	border:1px solid #5B0B1D;
+ 	border-collapse: collapse;
+ 	text-align: left;
+
+ }
+ th
+ {
+ 	position: sticky;
+ 	top: 0;
+ 	text-align: center;
+ 	background:#DB0409;
+ 	color: #fff;
+  }
+ tr th:nth-child(1)
+ {
+ 	width: 60px;
+ 	text-align: center;
+ 	background:#5B0B1D;
+
+ }
+ tr td:nth-child(1)
+ {
+ 	background:#DB0409;
+ 	text-align: center;
+ 	color: #fff;
+ } 
+.table-box a
+{
+	text-decoration: none;
+	font-family: arial,sans-serif;
+	transition: all .5s ease-in-out;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border:none;
+	color: #000;
+	border-bottom:1px solid #DB0409;
+}
+.table-box a:hover
+{   border:none;
+	border-radius: 10px;
+	background: #DB0409;
+	padding: 10px;
+	color:#fff;
+	border-left: 1px solid #000;
+	border-right:1px solid #0000;
+	border-top:1px solid #0000;
+}
+.about .abo .want_to ul:nth-of-type(4)
+{
+	margin-bottom: 10%;
+}
+
+
+.about .abo .want_to ul:nth-of-type(4) li i
+{
+   font-size: 35px;
+   color: #DB0409;
+}
+.about .abo .want_to ul:nth-of-type(4) li:nth-of-type(1)
+{
+  margin-left: 10%;
+}
+.moer_ser p
+{
+margin-left:50%;
+color: white;
+font-family: arial ,sans-serif;
+
+}
+.moer_ser img
+ {
+   margin-top: 5%;
+ }
+  header .containt p
+ {
+ color :black;
+ font-family: 'Just Another Hand', cursive;
+ font-size: 40px; 
+ }
+ .containt
+ {
+ 	
+ 	width: 15%;
+ 	height: 7%;
+ }
+  .containt p span 
+  {
+  	color: red;
+  }
+  .containt a
+  {
+  	text-decoration:none;
+  	color: white;
+  	font-size: 30px; 
+  	font-family: 'Just Another Hand', cursive;
+  }
+ .containt span:nth-of-type(2)
+{
+	padding: 12px;
+	border:none;
+	margin-top: 10px;
+	border-bottom:3px solid red;
+	border-top:3px solid red;
+	border-left:3px solid red;
+	border-right:3px solid red;
+}
