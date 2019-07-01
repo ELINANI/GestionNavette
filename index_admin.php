@@ -13,246 +13,9 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="ind.css">
 	<style type="text/css">
-	html,body
-{
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
-}
-		header
-		{
-		margin-bottom: 10px;
-            background: url(img/slide/1444.png) 50% 50%;
-            font-family: sans-serif;
-	        
-         	background-size: cover;
-         	z-index: 100000000;
-
-         }
-
-.ident .search
-{
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 40px;
-	height: 40px;
-	background:#fff;
-	transition: all .5s ease-in-out;
-}
-.ident .search .icon
-{
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	font-size: 20px;
-    color:#3A173F;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    cursor: pointer;
-}
-.ident .search .icon:before
-{
-	content: '\f002';
-	font-family: fontAwesome;
-
-}
-.ident .search.active .icon:before
-{
-	content: '\f00d';
-	font-family: fontAwesome;
-
-}
-.ident .search.active
-{
-	width: 100vw;
-	height: 100vh;
-
-}
- .ident .search .form
-{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-    display: none;
-}
-.ident .search .form input
-{
-	background:transparent;
-	color:#3A173F;
-	border:none;
-	border-bottom: 4px solid #3A173F;
-	outline:none;
-	font-size: 40px;
-	padding: 10px 0;
-}
-.ident .search.active .form
-{
-	display: block;
-}
-/*start login */
-.log
-{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform:translate(-50%,-50%);
-	width: 400px;
-	padding: 40px;
-	background:rgba(0,0,0,.8);
-	box-sizing: border-box;
-	box-shadow: 0 15px 25px rgba(0,0,0,.5);
-	border-radius: 10px;
-}
-.log h2
-{
-	margin: 0 0 30px;
-	padding: 0;
-	color: white;
-  text-align: center;
-
-}
-.log .us 
-{
-	position: relative;
-}
-.log .us input
-{
-	width: 100%;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #fff;
-	margin-bottom: 30px;
-	border:none;
-	border-bottom: 1px solid #fff;
-	outline: none;
-    background:transparent;
-}
-.log .us label
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #fff;
-	pointer-events: none;
-	transition: all .5s ease-in-out;
-}
-.log .us input:focus ~ label,
-.log .us input:valid ~ label
-{
-	top: -26px;
-	left: 0;
-	color: #3A173F;
-	font-size: 26px;
-}
-.log .us label:nth-of-type(3)
-{
-	margin-bottom: 10px;
-}
-{
-	border-bottom: 4px solid #3A173F;
-}
-.log .us input[type="file"]
-{
-	border-color:white;
-	background-color: #3A173F;
-	border-radius: 10px;
-	color: white; 
-	padding: 10px;
-	margin-top: 35px;
-}
-.log button
-{
-    border-color:white;
-	background-color: #3A173F;
-	border-radius: 10px;
-	color: white; 
-	padding: 10px;
-} 
-.log button:hover
-{
-    border-color:white;
-	background-color: #3A173F;
-	text-shadow: 0 0 5px #3A173F;
-box-shadow: 0 0 40px #3A173F,inset 0 0 40px #3A173F;
-}	
-/* end login*/
-/* start pop up*/
-.popup
-{
-	position: fixed;
-	top:0;
-	left:0;
-	width: 100vw;
-	height: 100vh;
-	background:rgba(0,0,0,.5);
-	display: none;
-}
-
-/* end pop up*/
-/*.sec2:before
-{
-	content: '';
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 100%;
-	height: 400px;
-	background:linear-gradient(#000,transparent);
-	pointer-events: none;
-
-}*/
-.sec2:after
-{
-	content: '';
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 100%;
-	height: 400px;
-	background:linear-gradient(#000,transparent);
-	pointer-events: none;
-
-}
-.sec2
-{
-	position: relative;
-	background-image:url(img/slide/1.png);
-	background-size: cover;
-	height: 100vh; 
-}
-.ident nav ul  a  
-{
-	background-color: #DB0409;
-	text-decoration: none;
-	height: 35px;
-    border-radius: 10px;
-    color: white;
-    padding: 10px;
-    transition: all 1s ease-in-out;
-}
-.ident nav ul  a:hover
-{
-	border-color: #3A173F;
-    background-color: white;
-    border-radius: 10px;
-    color: #3A173F;
-    padding: 10px;	
-} 
-.ident nav ul  img
-{
-	width: 20%;
-}
-.ident nav ul  label
-{
-	color: #fff;
-}
+	
 
 <?php
 $url="127.0.0.1";
@@ -355,7 +118,7 @@ if(isset($_SESSION['admin']))
 			<th>marque</th>
 			<th>stock</th>
 			<th>prix</th>
-			<th>Image</th>
+			
 			<th>Modifier</th>
 			<th>Supprimer</th>
          </tr>
@@ -368,7 +131,7 @@ if(isset($_SESSION['admin']))
          	<td><?php echo "$row[4]"; ?></td>
          	<td><?php echo "$row[3]"; ?></td>
          	<td><?php echo "$row[5]"; ?></td>
-         	<td><img class="card-img-top" src="img/tele/<?php echo "$row[2]" ?>"></td>
+         	
          	   <td>
          		<a href="<?php echo "edit.php?id=".$row[0]."" ?>">Modifier</a>
          	</td>
@@ -383,17 +146,7 @@ if(isset($_SESSION['admin']))
 	 
 </div>
 <br><br><br><br>
-<footer>
-<ul class="sci">
-	<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-	<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-	<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-	<li><a href="#"><i class="far fa-envelope"></i></a></li>
-</ul>
-<p class="cpryt">
-	© Copyright 2019  Phone | Tous droits réservés|
-</p>
-</footer>
+
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

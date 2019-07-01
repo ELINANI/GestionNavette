@@ -1,0 +1,149 @@
+body
+	{
+		width: 100%;
+		height: 100vh;
+		background:url(img/1.jpg);
+		background-size: cover;
+	    margin: 0;
+	    padding-top: 0;
+		
+	}
+.log
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	width: 800px;
+	padding: 40px;
+	background:rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+.log h2
+{
+	margin: 0 0 30px;
+	padding: 0;
+	color: white;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+.log .us 
+{
+	position: relative;
+}
+.log .us input
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border:none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+    background:transparent;
+}
+.log .us label
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: all .5s ease-in-out;
+}
+.log .us input:focus ~ label,
+.log .us input:valid ~ label
+{
+	top: -26px;
+	left: 0;
+	color: #3A173F;
+	font-size: 26px;
+}
+
+{
+	border-bottom: 4px solid #3A173F;
+}
+.log button
+{
+    border-color:white;
+	background-color: #DB0409;
+	border-radius: 20px;
+	color: white; 
+	width: 30%;
+	padding: 10px;
+	margin-left: 25%;
+} 
+.log button:hover
+{
+    border-color:white;
+	background-color: #DB0409;
+	text-shadow: 0 0 5px #DB0409;
+	box-shadow: 0 0 40px #DB0409,inset 0 0 40px #DB0409;
+	
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup .log .table-box{
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+  background: #000;
+  box-shadow: 0 10px 100px rgba(0,0,0,.5);
+}
+table{
+  width: 100%;
+}
+table, th, td
+{
+  border:1px solid #420102;
+  border-collapse: collapse;
+  text-align: left;
+
+}
+th{
+  background: #C60408;
+  color: #fff;
+  box-sizing: border-box;
+
+}
+tr th:nth-child(1)
+{
+  width: 60px;
+  text-align: center;
+  background: #420102;
+
+}
+tr td:nth-child(1)
+{
+  background: #C60408;
+  color: #fff;
+}
+.table-box
+{
+background:#02211F ;
+}
+.change
+{
+	color: yellow;
+ text-decoration: non;
+}

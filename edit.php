@@ -65,7 +65,7 @@
 .log .us input[type="file"]
 {
   border-color:white;
-  background-color: #3A173F;
+  background-color: #DB0409;
   border-radius: 10px;
   color: white; 
   padding: 10px;
@@ -74,7 +74,7 @@
 .log button
 {
   border-color:white;
-  background-color: #3A173F;
+  background-color: #DB0409;
   border-radius: 10px;
   color: white; 
   padding: 10px;
@@ -82,9 +82,9 @@
 .log button:hover
 {
     border-color:white;
-  background-color: #3A173F;
-  text-shadow: 0 0 5px #3A173F;
-box-shadow: 0 0 40px #3A173F,inset 0 0 40px #3A173F;
+  background-color: #DB0409;
+  text-shadow: 0 0 5px #DB0409;
+box-shadow: 0 0 40px #DB0409,inset 0 0 40px #3A173F;
 } 
 body
 {

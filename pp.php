@@ -218,18 +218,18 @@ $con = mysqli_connect($url,$use,$pwd,$bd);
 		if($row[2] == "admin")
 		{
 			$_SESSION['admin'] = $row[0];
-            header('REFRESH:.5,URL=choix.php');
+            header('location:choix.php');
 		}
 		else
 		{
 			$_SESSION['user'] = $row[0];
-            header('REFRESH:.5,URL=index_user.php');
+            header('location:reser.php');
 		}
 
 	}
 	else
 	{
-		header('REFRESH:.5,URL=index.php');
+		header('location:index.php');
 	}
 }else
 
